@@ -1,13 +1,8 @@
+project_name: "block-keboola-finance_essentials-config"
 
+################ Constants ################
 
-constant: connection {
-  value: "keboola_block_xero"
+constant: SCHEMA_NAME {
+  value: "default value"
+  export: override_required
 }
-
-
-# # Use local_dependency: To enable referencing of another project
-# # on this instance with include: statements
-#
-# local_dependency: {
-#   project: "name_of_other_project"
-# }
